@@ -93,9 +93,9 @@ my mind?
 
 Core Language
 
-* [ ] Hello world (main needs to be public)
-* [ ] Importing standard library
-* [ ] Assignment
+* [x] Hello world (main needs to be public)
+* [x] Importing standard library
+* [x] Assignment
 * [ ] Arrays
 * [ ] Strings
 * [ ] If
