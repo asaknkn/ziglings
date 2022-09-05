@@ -5,8 +5,6 @@ By fixing them, you'll learn how to read and write
 [Zig](https://ziglang.org/)
 code.
 
-![ziglings](https://user-images.githubusercontent.com/1458409/109398392-c1069500-790a-11eb-8ed4-7d7d74d32666.jpg)
-
 Those tiny broken programs need your help! (You'll also save the planet from
 evil aliens and help some friendly elephants stick together, which is very
 sweet of you.)
@@ -57,38 +55,6 @@ Then run `zig build` and follow the instructions to begin!
 $ zig build
 ```
 
-## A Note About Versions
-
-The Zig language is under very active development. In order to be current,
-Ziglings tracks **development** builds of the Zig compiler rather than
-versioned **release** builds. The last stable release was `0.9.1`, but Ziglings
-needs a dev build with pre-release version "0.10.0" and a build number at least
-as high as that shown in the example version check above.
-
-It is likely that you'll download a build which is _greater_ than the minimum.
-
-_(For those who cannot easily update Zig, there are also community-supported
-branches in this repo. At the moment, there's one for v0.8.1. Older version
-branches may or may not have all exercises and/or bugfixes.)_
-
-Once you have a build of the Zig compiler that works with Ziglings, they'll
-continue to work together. But keep in mind that if you update one, you may
-need to also update the other.
-
-Also note that the current "stage 1" Zig compiler is very strict
-about input: 
-[no tab characters or Windows CR/LF newlines are allowed](https://github.com/ziglang/zig/issues/544).
-
-### Version Changes
-
-* *2022-08-29* zig 0.10.0-dev.3685 - @typeName() output change, stage1 req. for async
-* *2022-07-31* zig 0.10.0-dev.3385 - std lib string fmt() option changes
-* *2022-03-19* zig 0.10.0-dev.1427 - method for getting sentinel of type changed
-* *2021-12-20* zig 0.9.0-dev.2025 - `c_void` is now `anyopaque`
-* *2021-06-14* zig 0.9.0-dev.137  - std.build.Id `.Custom` is now `.custom`
-* *2021-04-21* zig 0.8.0-dev.1983 - std.fmt.format() `any` format string required
-* *2021-02-12* zig 0.8.0-dev.1065 - std.fmt.format() `s` (string) format string required
-
 ## Advanced Usage
 
 It can be handy to check just a single exercise or _start_ from a single
@@ -127,36 +93,36 @@ my mind?
 
 Core Language
 
-* [x] Hello world (main needs to be public)
-* [x] Importing standard library
-* [x] Assignment
-* [x] Arrays
-* [x] Strings
-* [x] If
-* [x] While
-* [x] For
-* [x] Functions
-* [x] Errors (error/try/catch/if-else-err)
-* [x] Defer (and errdefer)
-* [x] Switch
-* [x] Unreachable
-* [x] Enums
-* [x] Structs
-* [x] Pointers
-* [x] Optionals
-* [x] Struct methods
-* [x] Slices
-* [x] Many-item pointers
-* [x] Unions
-* [x] Numeric types (integers, floats)
-* [x] Labelled blocks and loops
-* [x] Loops as expressions
-* [x] Builtins
-* [x] Inline loops
-* [x] Comptime
-* [x] Sentinel termination
-* [x] Quoted identifiers @""
-* [x] Anonymous structs/tuples/lists
+* [ ] Hello world (main needs to be public)
+* [ ] Importing standard library
+* [ ] Assignment
+* [ ] Arrays
+* [ ] Strings
+* [ ] If
+* [ ] While
+* [ ] For
+* [ ] Functions
+* [ ] Errors (error/try/catch/if-else-err)
+* [ ] Defer (and errdefer)
+* [ ] Switch
+* [ ] Unreachable
+* [ ] Enums
+* [ ] Structs
+* [ ] Pointers
+* [ ] Optionals
+* [ ] Struct methods
+* [ ] Slices
+* [ ] Many-item pointers
+* [ ] Unions
+* [ ] Numeric types (integers, floats)
+* [ ] Labelled blocks and loops
+* [ ] Loops as expressions
+* [ ] Builtins
+* [ ] Inline loops
+* [ ] Comptime
+* [ ] Sentinel termination
+* [ ] Quoted identifiers @""
+* [ ] Anonymous structs/tuples/lists
 * [ ] Async <--- IN PROGRESS!
 
 ## Contributing
