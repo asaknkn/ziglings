@@ -119,7 +119,7 @@ Core Language
 * [x] Loops as expressions
 * [x] Builtins
 * [x] Inline loops
-* [] Comptime
+* [ ] Comptime
 * [x] Sentinel termination
 * [x] Quoted identifiers @""
 * [x] Anonymous structs/tuples/lists
