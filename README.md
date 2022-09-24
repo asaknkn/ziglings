@@ -96,34 +96,34 @@ Core Language
 * [x] Hello world (main needs to be public)
 * [x] Importing standard library
 * [x] Assignment
-* [ ] Arrays
-* [ ] Strings
-* [ ] If
-* [ ] While
-* [ ] For
-* [ ] Functions
-* [ ] Errors (error/try/catch/if-else-err)
-* [ ] Defer (and errdefer)
-* [ ] Switch
-* [ ] Unreachable
-* [ ] Enums
-* [ ] Structs
-* [ ] Pointers
-* [ ] Optionals
-* [ ] Struct methods
-* [ ] Slices
-* [ ] Many-item pointers
-* [ ] Unions
-* [ ] Numeric types (integers, floats)
-* [ ] Labelled blocks and loops
-* [ ] Loops as expressions
-* [ ] Builtins
-* [ ] Inline loops
-* [ ] Comptime
-* [ ] Sentinel termination
-* [ ] Quoted identifiers @""
-* [ ] Anonymous structs/tuples/lists
-* [ ] Async <--- IN PROGRESS!
+* [x] Arrays
+* [x] Strings
+* [x] If
+* [x] While
+* [x] For
+* [x] Functions
+* [x] Errors (error/try/catch/if-else-err)
+* [x] Defer (and errdefer)
+* [x] Switch
+* [x] Unreachable
+* [x] Enums
+* [x] Structs
+* [x] Pointers
+* [x] Optionals
+* [x] Struct methods
+* [x] Slices
+* [x] Many-item pointers
+* [x] Unions
+* [x] Numeric types (integers, floats)
+* [x] Labelled blocks and loops
+* [x] Loops as expressions
+* [x] Builtins
+* [x] Inline loops
+* [] Comptime
+* [x] Sentinel termination
+* [x] Quoted identifiers @""
+* [x] Anonymous structs/tuples/lists
+* [x] Async <--- IN PROGRESS!
 
 ## Contributing
 
